@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const ProductManager = require("../ProductManager.js");
+const ProductManager = require("./ProductManager.js");
 const productManager = new ProductManager();
 app.use(express.urlencoded({ extended: true }))
 
